@@ -1,9 +1,9 @@
-import React from 'react'
+import Countries from "./Countries/page";
+import Navbar from "./Navbar";
+import Link from "next/link";
 
 export default function page() {
   return (
-    <div>
-      <h2>this is a page component</h2>
-    </div>
+   <Countries />
   )
 }
